@@ -1,0 +1,1 @@
+Those exercises including multi-command scripts. Also works with complex commands
