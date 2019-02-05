@@ -445,3 +445,170 @@ git commit -m "22 at last"
 git push
 ./22-users_and_homes 
 cut -d: -f1,6 | sort -k3,3
+ls
+git status
+git add --a
+git commit -m "Adding on my PC"
+git pull origin master
+ls
+cd holberton-system_engineering-devops/
+ls
+cd 0x02-shell_redirections/
+ls
+ls -la
+sort -k8
+ls
+rm -r 0x02-shell_redirections/
+ls
+cd holberton-system_engineering-devops/
+cd 0x02-shell_redirections/
+ls
+ls -la
+ls -la | sort -k8
+ls -la -f1,9
+ls -la | cut -d -f1,6
+emacs 22-users_and_homes 
+./22-users_and_homes 
+emacs 22-users_and_homes 
+./22-users_and_homes 
+emacs 22-users_and_homes 
+cut -d: -f1,6 /etc/passwd | sort -k1
+cut -d: -f1,6 /etc/passwd | sort -k2
+cut -d: -f1,6 /etc/passwd | sort -k3
+cut -d: -f1,6 /etc/passwd | sort -k4
+sort -k6 /etc/passwd
+emacs 22-users_and_homes 
+sort -k6 /etc/passwd | cut -d: -f1,6
+sort -k1 /etc/passwd | cut -d: -f1,6
+sort -k6,1 /etc/passwd | cut -d: -f1,6
+sort -k6,1r /etc/passwd | cut -d: -f1,6
+./22-users_and_homes 
+cat /etc/passwd
+cat /etc/passwd | sort -d
+cat /etc/passwd | sort -k1
+cat /etc/passwd | sort -k2
+cd holberton-system_engineering-devops/
+cd 0x02-shell_redirections/
+emacs 22-users_and_homes 
+git add .
+git commit -m "22 at last"
+git push
+emacs 22-users_and_homes 
+git add .
+git push
+git commit -m "22 at last"
+git push
+cut -d : -f 1,6 /etc/passwd | sort
+cut -d: -f 1,6 /etc/passwd | sort 
+cut -d : -f 1,6 /etc/passwd | sort -k2
+cut -d : -f 1,6 /etc/passwd
+cut -d : -f 1,6 /etc/passwd | sort
+emacs 22-users_and_homes 
+git add .
+git commit -m "22 at last"
+git push
+emacs 22-users_and_homes 
+./22-users_and_homes 
+cd holberton-system_engineering-devops/
+cd 0x02-shell_redirections/
+emacs 22-users_and_homes 
+./22-users_and_homes 
+emacs 22-users_and_homes 
+./22-users_and_homes 
+emacs 22-users_and_homes 
+./22-users_and_homes 
+emacs 22-users_and_homes 
+./22-users_and_homes 
+cd holberton-system_engineering-devops/
+cd 0x02-shell_redirections/
+find . -empty -printf '%f\n'
+touch "thesky"
+find . -empty -printf '%f\n'
+emacs 100-empty_casks
+git add .
+less 10-no_more_js 
+emacs 101-gifs
+git add .
+git commit -m "extra"
+git push
+rm *~
+git add .
+git add --a
+git commit -m "extra"
+git push
+ls 
+chmod u+x 100-empty_casks 
+chmod u+x 101-gifs 
+cd
+ls
+holberton-system_engineering-devops/
+cd holberton-system_engineering-devops/
+ls
+cd 0x01-shell_permissions/
+ls
+emacs 14-change_owner_and_group
+chown man
+man chown
+emacs 14-change_owner_and_group 
+chmod u+x 14-change_owner_and_group
+ls
+./14-change_owner_and_group 
+git add .
+git commit -m "Change owner and group"
+git push
+emacs 14-change_owner_and_group
+git commit -m "Change owner and group"
+git add .
+git push
+git commit -m "Change owner and group"
+git push
+man chown
+emacs 14-change_owner_and_group
+git commit -m "Change owner and group"
+git add .
+git commit -m "Change owner and group"
+git push
+emacs 14-change_owner_and_group
+ls -t
+chow betty *
+chown betty *
+sudo chown betty *
+emacs 13-change_group 
+emacs 14-change_owner_and_group
+git add .
+git commit -m "Change owner and group"
+git push
+emacs 14-change_owner_and_group
+man chown
+emacs 14-change_owner_and_group
+git add .
+git commit -m "Change owner and group"
+git push
+emacs 14-change_owner_and_group
+git add .
+git commit -m "Change owner and group"
+git push
+emacs 14-change_owner_and_group
+./14-change_owner_and_group 
+emacs 14-change_owner_and_group
+./14-change_owner_and_group 
+emacs 14-change_owner_and_group
+./14-change_owner_and_group 
+ls -t
+ls -la
+git add .
+git commit -m "Change owner and group"
+git push
+man telnet
+emacs 14-change_owner_and_group
+su
+sudo
+sudo ./14-change_owner_and_group 
+emacs 14-change_owner_and_group
+chown betty :holberton *
+chown betty [:holberton] *
+git add --a
+git commit -m "14"
+git push
+man chown
+exit
