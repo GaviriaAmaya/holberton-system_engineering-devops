@@ -612,3 +612,66 @@ git commit -m "14"
 git push
 man chown
 exit
+ls
+git pull
+git merge
+git add --a
+git status
+git add --a
+git status
+git add holberton-system_engineering-devops/
+git status
+cd holberton-system_engineering-devops/
+git add --a
+git status
+cd ..
+git status
+git pull 
+git commit -m "Work at home"
+git status
+git pull
+cd holberton-system_engineering-devops/
+ls
+git pull
+git pull origin master
+git status
+git commit -m "Work at home"
+git merge
+git status
+cd 0x03-shell_variables_expansions/
+ls
+chmod u+x 7-create_global_variable 
+ls
+less 7-create_global_variable 
+./7-create_global_variable 
+$HOLBERTON
+git add --a
+git commit -m "Adding Global variable"
+git push
+ls
+emacs 8-true_knowledge
+chmod u+x 8-true_knowledge 
+git add .
+git commit -m "Arithmetic exp: Summa"
+git push
+emacs 9-divide_and_rule
+chmod u+x 9-divide_and_rule 
+git add .
+git commit -m "Arithmetic: Division"
+git push
+emacs 10-love_exponent_breath
+chmod u+x 10-love_exponent_breath 
+git add .
+git commit -m "Arithmetics: Potentiation"
+git push
+ls
+echo $PATH | tr ":" "\n" | wc -l
+export PATH=PATH:/action
+echo $PATH | tr ":" "\n" | wc -l
+export PATH=$PATH:/action
+echo $PATH
+$PATH
+export PATH=$PATH:/action
+echo $PATH | tr ":" "\n" | wc -l
+emacs 3-paths
+exit
