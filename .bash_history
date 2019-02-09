@@ -675,3 +675,391 @@ export PATH=$PATH:/action
 echo $PATH | tr ":" "\n" | wc -l
 emacs 3-paths
 exit
+type printf
+/usr/bin/printf --help
+info coreutils 'printf invocation'
+sudo apt-get update
+ls
+cd 0x01-shell_permissions/
+ls
+emacs 15-symbolic_link_permissions
+chmod u+x 15-symbolic_link_permissions 
+ls
+emacs 16-if_only
+chmod u+x 16-if_only 
+ls
+git commit -m "Adding exercises mandatory and 1 advanced"
+git add --a
+git add --all
+git status
+git commit -m "Adding exercises mandatory and 1 advanced"
+git push
+emacs 15-symbolic_link_permissions 
+git add --a
+git commit -m "Adding space on Symbolic link syntax"
+git push
+emacs 15-symbolic_link_permissions 
+git add --a
+git commit -m "Adding space on Symbolic link syntax"
+emacs 15-symbolic_link_permissions 
+git push
+cd
+ls
+mkdir holberton-system_engineering-devops
+cp *0 holberton-system_engineering-devops/
+cp 0x01-shell_permissions/ holberton-system_engineering-devops/
+cp 0x01-shell_permissions holberton-system_engineering-devops/
+mv 0x01-shell_permissions/ holberton-system_engineering-devops/
+mv 0x02-shell_redirections/ holberton-system_engineering-devops/
+mv 0x03-shell_variables_expansions/ holberton-system_engineering-devops/
+ls
+cd holberton-system_engineering-devops/
+ls
+cd
+mkdir holbertonschool-low_level_programming
+git clone https://github.com/holbertonschool/Betty.git
+ls
+cd Betty/
+ls
+sudo install.sh
+sudo ./install.sh 
+emacs betty
+chmod a+x betty
+sudo mv betty /bin/
+ls
+less betty°
+less betty~
+ls
+cd
+ls
+cd holbertonschool-low_level_programming/
+ls
+man puts
+ls
+emacs README.md
+ls
+git init
+emacs 4-puts.c
+mkdir 0x00-hello_world
+ls
+mv 4-puts.c 0x00-hello_world/
+cp README.md 0x00-hello_world/
+ls
+cd 0x00-hello_world/
+ls
+betty 4-puts.c 
+ls
+emacs 4-puts.c 
+chmod u+x 4-puts.c
+git commit -m "Starting with puts command and README"
+git add .
+git commit -m "Starting with puts command and README"
+git push
+git remote add origin "https://github.com/GaviriaAmaya/holbertonschool-low_level_programming.git"
+git status
+git add --a
+git add ../README.md 
+git commit -m "Starting with puts command and README"
+git push
+git push origin master
+emacs 4-puts.c
+git commit -m "Second try to use puts"
+ggit add .
+git add .
+git commit -m "Second try to use puts"
+git push
+emacs 4-puts.c
+$CFILE
+acho $CFILE
+echo $CFILE
+man gcc
+man gcc -E
+gcc -E $CFILE >> c
+emacs 0-preprocessor
+chmod u+x 0-preprocessor 
+git add .
+git commit -m "Im not sure of 0"
+git push
+gcc -E $CFILE > c
+emacs 0-preprocessor 
+git add .
+git commit -m "Im not sure of 0"
+git push
+ls
+less c
+emacs 0-preprocessor 
+man gcc
+emacs 1-compiler
+emacs 1-compiler 
+chmod u+x 1-compiler
+git commit -m "Corrected with gcc man the preprocessor and trying out compiler"
+git add .
+rm *~
+git add --all
+git commit -m "Corrected with gcc man the preprocessor and trying out compiler"
+git push
+cat main.c
+emacs 1-compiler 
+gcc man
+man gcc
+emacs 2-assembler
+git add .
+git commit -m "Let´s do 3"
+git push
+touch klo.c
+emacs 0-preprocessor 
+emacs 1-compiler 
+emac 2-assembler 
+emacs 2-assembler 
+git commit -m "Let´s do 3"
+git add .
+git commit -m "Let´s do 3"
+git push
+emacs 0-preprocessor 
+emacs 2-assembler 
+man gcc
+emacs 0-preprocessor 
+puts "Programing is like building a multilingual puzzle
+man puts
+int puts "lololo
+emacs 4-puts.c 
+ls
+less 2-assembler 
+chmod 2-assembler 
+chmod u+x 2-assembler 
+ls
+less 0-preprocessor 
+emacs 0-preprocessor 
+git add .
+git commit -m "Correcting grep to gcc and make executable 2. Writing puts.c"
+git push
+less
+emacs 4-puts.c 
+gcc 4-puts.c
+gcc man
+man gcc
+gcc -c 4-puts.c 
+ls
+gcc -S 4-puts.c 
+gcc -E 4-puts.
+gcc -E 4-puts.c
+ls
+gcc -S 4-puts.s
+gcc -E 4-puts.o
+ls
+gcc -E 4-puts.s
+ls
+git add .
+git commit -m "Try again 4"
+git push
+gcc 4-puts.c && ./a.out
+emacs 4-puts.
+rm 4-puts.
+emacs 4-puts.c
+gcc 4-puts.c && ./a.out
+emacs 4-puts.c
+gcc 4-puts.c && ./a.out
+emacs 4-puts.c
+gcc 4-puts.c && ./a.out
+emacs 5-printf.c
+gcc 5-printf.c
+emacs 4-puts.c
+rm 4-puts.c
+rm 4-puts.s 
+ls
+rm c
+rm klo.c 
+emacs 5-printf.c
+gcc 5-printf.c
+emacs 4-puts.c
+gcc 4-puts.c 
+git add .
+git add --all
+git commit -m "Correcting exe 4. Compiling 4 and 5"
+git puch
+git push
+gcc 4-puts.c && ./a.out
+echo $?
+emacs 4-puts.c 
+git commit -m "Del new line on puts"
+git add .
+git commit -m "Del new line on puts"
+git push
+emacs 4-puts.c 
+git add .
+gt commit -m "Del () on the 4"
+git commit -m "Del () on the 4"
+git push
+ls
+betty 4-puts.c 
+emacs 4-puts.c 
+betty 4-puts.c 
+betty 5-printf.c
+emacs 5-printf.c
+betty 5-printf.c
+emacs 5-printf.c
+betty 5-printf.c
+git add .
+git commit -m "Put () again on 4 and Betty tested"
+git push
+~
+cd 
+ls
+emacs ~/emacs
+rm ~/emacs
+emacs ~/.emacs
+cd /home
+ls
+cd vagrant
+ls
+ls -a
+cp .emacs /home
+mv .emacs /home
+sudo mv .emacs /home
+cd /home
+ls
+ls -a
+cd vagrant/
+cd holbertonschool-low_level_programming/
+ls
+cd 0x00-hello_world/
+ls
+rm *~
+betty 4-puts.c 
+emacs 4-puts.c 
+betty 4-puts.c 
+emacs 4-puts.c 
+emacs 5-printf.c 
+betty 5-printf.c 
+emacs 5-printf.c 
+git add .
+git commit -m "Avoiding Warnings from Betty"
+git push
+betty 4-puts.c 
+betty 5-printf.c 
+emacs 4-puts.c 
+betty 4-puts.c 
+emacs 4-puts.c 
+gcc 4-puts.c
+gcc 4-puts.c && /a.out
+emacs 4-puts.c 
+gcc 4-puts.c && /a.out
+betty 4-puts.c 
+emacs 4-puts.c 
+betty 4-puts.c 
+git add .
+emacs 5-printf.c 
+betty 5-printf.c 
+gcc 5-printf.c && /a.out
+gcc 4-puts.c && /a.out
+emacs 4-puts.c 
+emacs 5-printf.c 
+gcc 5-printf.c 
+gcc 4-puts.c 
+gcc 4-puts.c && /a.out
+ls
+gcc 4-puts.c && ./a.out
+echo $?
+gcc 5-printf.c && ./a.out
+gcc -Wall 5-printf.c 
+gcc -Wall 4-puts.c 
+betty 4-puts.c 
+emacs 4-puts.c 
+betty 4-puts.c 
+betty 5-printf.c 
+gcc -Wall 4-puts.c 
+gcc -Wall 5-printf.c 
+git commit -m "Adding -Wall to compile. Correcting warnings."
+git push
+emacs 3-name
+chmod u+x 3-name 
+betty 4-puts.c 
+emacs 4-puts.c 
+betty 4-puts.c 
+gcc 4-puts.c 
+gcc -Wall 4-puts.c 
+gcc -Wall 5-printf.c 
+git add .
+git add --all
+git commit -m "Prove 4 without \n and adding 3"
+git push
+emacs 5-printf.c 
+emacs 4-puts.c 
+apt-get install libc6-dev-i386
+sudo apt-get install libc6-dev-i386
+emacs 6-size.c
+gcc 6-size.c 
+betty 6-size.c 
+emacs 6-size.c 
+gcc 6-size.c
+emacs 6-size.c
+gcc 6-size.c
+emacs 6-size.c
+gcc 6-size.c
+emacs 6-size.c
+gcc 6-size.c
+emacs 6-size.c
+gcc 6-size.c
+emacs 6-size.c
+gcc 6-size.c
+emacs 6-size.c
+gcc 6-size.c
+emacs 6-size.c
+gcc 6-size.c
+emacs 6-size.c
+gcc 6-size.c
+betty 6-size.c
+gcc -Wall 6-size.c
+man sizeof
+gcc 6-size.c -o m
+less m
+emacs m
+ls -l
+emacs 6-size.c
+git commit -m "Try with the sizeof command"
+git add .
+git commit -m "Try with the sizeof command"
+git push
+gcc main.c
+gcc -E 4-puts.c 
+gcc main.cls
+ls
+ls -
+ls -a
+gcc -E 4-puts.c -o 4
+ls
+emacs 4
+gcc -c 4
+ls
+emacs 6-size.c
+git add --all
+git commit -m "Another try. Long unsigned integral"
+git push
+less 6-size.c
+gcc 6-size.c
+betty 6-size.c
+emacs 6-size.c
+gcc 6-size.c
+gcc -Wall 6-size.c
+git add --a
+git commit -m "Minor corrections on 6"
+git push
+betty 6-size.c
+emacs 6-size.c
+git add .
+git commit -m "Spaces"
+git push
+gcc 6-size.c -m32 -o size32 2> /tmp/32
+gcc 6-size.c -m64 -o size32 2> /tmp/64
+gcc --Wall 6-size.c
+gcc -Wall 6-size.c
+betty 6-size.c
+emacs 6-size.c
+betty 6-size.c
+git add .
+ls
+less size32
+emacs size32
+ls
+emacs 0-positive_or_negative.c
+ls
