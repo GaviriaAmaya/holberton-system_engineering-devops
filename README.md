@@ -1,1 +1,0 @@
-Working on the basics on the Shell. Make commands and solving exercises
