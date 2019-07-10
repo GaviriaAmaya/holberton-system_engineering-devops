@@ -1,2 +1,3 @@
-#!/bin/bash
-ifconfig -a | grep -w "inet" | cut -d ":" -f2 | cut -d ' ' -f1
+#!/usr/bin/env bash
+#Shows my IP
+ifconfig | grep -w "inet addr" | cut -d ":" -f2 | cut -d ' ' -f1
