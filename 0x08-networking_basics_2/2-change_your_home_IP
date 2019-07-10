@@ -1,2 +1,5 @@
 #!/usr/bin/env bash
+#Change ip to Facebook IP
+cp /etc/hosts ~/hosts.new
 sed -i "s/127.0.0.1/127.0.0.2/g" /etc/hosts
+cp -f ~/hosts.new /etc/hosts
