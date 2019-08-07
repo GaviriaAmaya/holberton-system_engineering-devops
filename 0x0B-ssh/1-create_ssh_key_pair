@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#Generating RSA pkey
+ssh-keygen -b 4096 -f holberton -p betty -t rsa
