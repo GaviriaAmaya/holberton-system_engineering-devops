@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# You my friend are responsible for delaying my rendezvous with star command!
+# shellcheck disable=SC2009
+ps -auxf | grep bash
