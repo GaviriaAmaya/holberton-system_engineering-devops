@@ -1,5 +1,5 @@
 #Execute pkill on a process
 exec { 'killmenow':
-  command  => 'pkill -f killmenow',
-  provider => shell,
+  command => 'pkill -f killmenow',
+  path    => ['/usr/bin'],
 }
