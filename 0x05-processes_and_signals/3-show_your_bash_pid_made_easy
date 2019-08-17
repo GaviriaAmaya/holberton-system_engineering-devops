@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# You are a sad, strange little man. Farewell.
+pgrep -l bash

@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# Shows in 4 "Bad luck" sentence. And, on 8 "Good look". Practice with other notation
+i=1
+while ((i<10))
+do
+	if ((i==4))
+	then
+		echo "bad luck"
+	elif ((i==8))
+	then
+		echo "good luck"
+	else
+		echo "Holberton School"
+	fi
+done

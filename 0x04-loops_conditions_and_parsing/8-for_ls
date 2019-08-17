@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Script into another script with bash commands!
+scripet=$(find . -type f -not -path "./.*" | cut -c 3- | cut -d '-' -f2-)
+for i in $scripet
+do
+    echo "$i"
+done

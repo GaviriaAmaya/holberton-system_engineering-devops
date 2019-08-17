@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# This script do the same. Ten times HS
+i=0
+while ((i<=9))
+do
+	echo "Holberton School"
+	((i++))
+done

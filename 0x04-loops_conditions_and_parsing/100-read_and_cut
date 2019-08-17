@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Scripting
+
+
+passwd="/etc/passwd"
+
+while IFS= read -r line
+do
+	echo "$line" | cut -d ":" -f1,3,6
+done < "$passwd"
