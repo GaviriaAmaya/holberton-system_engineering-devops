@@ -18,8 +18,8 @@
 
 ## Work log.
 
-##### - Puppet
-> Puppet is an automation tool that allows you to do some repetitive commands and other boring stuff. This is useful from starting configuration of your terminal (If you use a new device) to monitorize and maintain servers and bigger works
+##### - UNPROTECTED KEY!
+> One general advice is something like \"WARNING: UNPROTECTED PRIVATE KEY FILE!\". So, the key is change the permissions at 600 of the Private Key file. It's on the ~/.ssh/ directory
 
 ##### - Puppet lint
 > Styling for puppet. But, more than that, Puppet lint also fix automatically the indentation and other styles, to be readable and easier to manage. A great example of how Puppet works. (Maybe it can do something with my Python style... Or, even Betty!)
