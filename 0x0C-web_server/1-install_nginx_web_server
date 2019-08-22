@@ -2,6 +2,6 @@
 #Script that describes the process of install Nginx
 sudo apt-get -y update
 sudo apt-get -y install nginx
-sudo ufw allow 'Nginx HTTP'
+sudo sed -i '0,/listen.*/s/listen.*/listen 80 default_server;/' /etc/nginx/sites-enabled/default
 echo "Holberton School" | sudo tee /var/www/html/index.html
 sudo service nginx start
