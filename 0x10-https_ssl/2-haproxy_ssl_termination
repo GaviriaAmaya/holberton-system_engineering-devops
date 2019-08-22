@@ -33,6 +33,7 @@ defaults
 	errorfile 502 /etc/haproxy/errors/502.http
 	errorfile 503 /etc/haproxy/errors/503.http
 	errorfile 504 /etc/haproxy/errors/504.http
+
 frontend www-http
         bind *:80
         reqadd X-Forwarded-Proto:\ http
@@ -40,7 +41,7 @@ frontend www-http
 
 frontend www-https
         bind *:443 ssl crt /etc/haproxy/ssl/www.hopper-grace.tech.pem
-        reqadd X-Forwarded-Proto:\ https
+x        reqadd X-Forwarded-Proto:\ https
         default_backend web-backend
 
 backend web-backend
