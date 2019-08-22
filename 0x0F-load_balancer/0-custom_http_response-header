@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 #Script that describes the process of install Nginx
+#shellcheck disable=SC2154
 if [ ! -x /usr/sbin/nginx ];
 then
     sudo apt-get update
