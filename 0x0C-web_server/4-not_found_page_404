@@ -1,11 +1,14 @@
 #!/usr/bin/env bash
 #Script that describes the process of install Nginx
-sudo apt-get update
-sudo apt-get install nginx -y
+if [ ! -x /usr/sbin/nginx ];
+then
+    sudo apt-get update
+    sudo apt-get install nginx -y
+fi
 redirection="\\\trewrite ^/redirect_me https://www.youtube.com/watch?v=lmvUFhjZdFc permanent; \n"
-not_found="\\\terror_page 404 /custom_404.html;\n\tlocation = custom_404.html {\n\t\troot /usr/share/nginx/html;\n\t\tinternal;\n\t}"
+sudo sed -i "37i $redirection" /etc/nginx/sites-enabled/default
 echo "Holberton School" | sudo tee /var/www/html/index.html
 echo "Ceci n'est pas une page" | sudo tee /usr/share/nginx/html/custom_404.html
-sudo sed -i "37i $redirection" /etc/nginx/sites-enabled/default
+not_found="\\\terror_page 404 /custom_404.html;\n\tlocation = /custom_404.html {\n\t\troot /usr/share/nginx/html;\n\t\tinternal;\n\t}"
 sudo sed -i "39i $not_found" /etc/nginx/sites-enabled/default
 sudo service nginx restart
