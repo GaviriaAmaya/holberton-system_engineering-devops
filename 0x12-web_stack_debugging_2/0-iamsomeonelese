@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#Script that uses one argument, run the "whoami" command
+if [ "$#" -ne 0 ]
+then
+    whoami
+else
+    whoami "$1"
+fi
