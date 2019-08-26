@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #shellcheck disable=SC2086
-#Script that shows info about subdomain
-if (( "$#" == 1 ));
+#Script that configures subdomain
+if [ "$#" -eq 1 ];
 then
     subdom='www lb-01 web-01 web-02'
 else
