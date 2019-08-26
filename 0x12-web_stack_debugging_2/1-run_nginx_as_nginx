@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#Script to debug Nginx at port 8080 using 
+chmod 404 /etc/nginx/nginx.conf
+sed -i 's,/80/8080/g' /etc/nginx/sites-enabled/default
+pkill apache2
+sudo -u nginx service nginx start
+chmod 666 /run/nginx.pid
+sudo -u nginx service nginx start
