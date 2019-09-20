@@ -4,17 +4,15 @@ from requests import get
 
 
 def top_ten(subreddit):
-    if type(subreddit) is not str:
-        return 0
 
     api = "https://www.reddit.com/r/{}/hot/.json".format(subreddit)
     header = {'user-agent': 'Judama15'}
-    resp = get(api, headers=header, allow_redirects=False)
+    parq = {'limit': 10}
+    resp = get(api, headers=header, allow_redirects=False, params=parq)
 
-    if resp.status_code != 200:
-        return None
-
+    if resp.status_code == 200:
+        jsf = resp.json().get('data').get('children')
+        for js in jsf:
+            print(js.get('data').get('title'))
     else:
-        jsf = resp.json()['data']['children']
-
-        return '\n'.join([jsf[i]['data']['title']for i in range(10)])
+        print("None")
